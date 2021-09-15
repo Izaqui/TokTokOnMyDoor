@@ -1,4 +1,4 @@
-const connection = require('../database');
+const connection = require('../DataBaseUser/connection');
 module.exports = {
     async index(request, response){
         const { page = 1 } = request.query;
@@ -11,8 +11,11 @@ module.exports = {
             .offset((page - 1) * 5)
             .select([
                 'usuario.*', 
-                'usuario.nome',
-                'usuario.email', 
+                'usuario.name',
+                'usuario.email',
+                'usuario.cpf',
+                'usuario.city',
+                'usuario.uf',
             ]);
 
         response.header('X-Total-Count', count['count(*)']);
@@ -24,8 +27,11 @@ module.exports = {
         const user_email = request.headers.authorization;
 
         const [email] = await connection('usuario').insert({
-            nome,
-            user_email
+            user_name,
+            user_email,
+            user_cpf,
+            user_city,
+            user_uf,
         });
 
         return response.json({ email });
