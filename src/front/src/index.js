@@ -11,6 +11,7 @@ ReactDOM.render(
     <App />
     <Menu/>
     <Card/>
+    <Card/>
   </React.StrictMode>,
   document.getElementById('root')
 );

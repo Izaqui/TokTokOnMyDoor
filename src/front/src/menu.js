@@ -1,3 +1,4 @@
+
 export default function Menu() {
     return (
       <menu className="menu">
@@ -43,7 +44,10 @@ export default function Menu() {
             </ul>
           </li>
 
-          <li><a href="#">Contato</a></li>
+          <li><a href="./mapa/map.html">mapa</a>
+
+          </li>
+          
         </ul>
       </menu>
     );
