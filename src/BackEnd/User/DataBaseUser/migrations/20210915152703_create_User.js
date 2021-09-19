@@ -6,6 +6,8 @@ exports.up = function(knex) {
         table.string('email').notNullable();
         table.string('city').notNullable();
         table.string('uf',2).notNullable();
+        table.string('bairro').notNullable();
+        table.string('rua',2).notNullable();
     });
   };
   
