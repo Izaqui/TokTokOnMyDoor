@@ -9,34 +9,27 @@ export default function Menu() {
               <form action="/pagina-processa-dados-do-form" method="post">
                   <div>
                     <center><h1>Cadastre-se</h1></center>
-                      <label for="nome">Nome:</label>
-                      <input type="text" id="nome" />
+                      <input placeholder="Nome" type="text" id="nome" />
                   </div><br/>
                   <div>
-                      <label for="cpf">Cpf:</label>
-                      <input type="text" id="cpf" />
+                      <input placeholder="CPF" type="text" id="cpf" />
                   </div><br/>
                   <div>
-                      <label for="email">E-mail:</label>
-                      <input type="email" id="email" />
+                      <input placeholder="E-mail" type="email" id="email" />
                   </div><br/>
                   <center><h2>Endereço</h2></center>
                   <div>
-                      <label for="City">Cidade:</label>
-                      <input type="text" id="city" />
+                      <input placeholder="Cidade" type="text" id="city" />
                   </div><br/>
                   <div>
-                      <label for="uf">Uf:</label>
-                      <input type="text" id="uf" />
+                      <input placeholder="UF" type="text" id="uf" />
                   </div><br/>
                   <div>
-                      <label for="rua">Rua e numero:</label>
-                      <input type="text" id="rua" />
+                      <input placeholder="Rua e numero" type="text" id="rua" />
                   </div><br/>
                   <div>
-                      <label for="bairro">Bairro:</label>
-                      <input type="text" id="bairro" />
-                  </div><br/>
+                      <input placeholder="Bairro" type="text" id="bairro" />
+                  </div><br/><br/>
                   <div>
                       <button type="submite">Concluir</button>
                   </div>

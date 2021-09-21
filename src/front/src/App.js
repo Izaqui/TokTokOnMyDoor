@@ -13,15 +13,7 @@ function App() {
           <div className="dropdown">
             <p><img src="./img/compras.png"/>Carrinho</p>
             <div class="dropdown-content">
-              <ul>
-                <li><a href="#">Itens</a></li>
-                <li><a href="#">Itens</a></li>
-                <li><a href="#">Itens</a></li>
-                <li><a href="#">Itens</a></li>
-                <li><a href="#">Itens</a></li>
-                <li><a href="#">Itens</a></li>
-                <li><a href="#">Itens</a></li>
-                <li><a href="#">Itens</a></li>
+              <ul id="itens">
               </ul>
             </div>
           </div>

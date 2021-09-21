@@ -48,3 +48,15 @@ body {
     float: right;
     margin-right: 40%;
 }
+button{
+  width: 25em;
+  height: 2em;
+  font-size: 50%;
+  background-color: rgb(76, 90, 85);
+  border-radius: 15px;
+  border: 0.1cm;
+}
+button:hover{
+  background-color: #2980b9;
+
+}
